@@ -60,7 +60,7 @@
                         entry-point
                         binary-pathname
                         "ros"
-                        '()
+                        '("+Q")
                         "-l"
                         "-e")
         (boot-and-build system-name
